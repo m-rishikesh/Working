@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.webname {
+    background-image: url("noteimg.jpg");
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white; 
+    font-weight: 200;   
+}
+.facilities {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+.notes {
+    border: 2px solid greenyellow;
+}
+.review {
+    border: 2px solid greenyellow;
+}
+.info-sect {
+    border: 2px solid rgb(205, 30, 30);
+     display:flex;
+    justify-content: center;
+    /* align-items: center; */ 
+    height: 350px;
+    
+}
+.info {
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+    
+}
+
+.infoin {
+    border: 2px solid rgb(55, 55, 222);
+    
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
