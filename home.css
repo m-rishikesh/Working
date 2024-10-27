@@ -228,6 +228,7 @@ li {
     .header {
         font-size: 66px;
         font-weight: bold;
+        padding-left:10px;
     }
 
     .webname {
@@ -243,7 +244,7 @@ li {
     }
 
     h4 {
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     nav {
