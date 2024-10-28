@@ -149,7 +149,7 @@ p {
     margin-top: 30px;
     font-size: 50px;
     padding: 50px;
-    color: rgb(207, 42, 186);
+    color:#025bb5d5;
 }
 
 .header {
@@ -201,7 +201,7 @@ h3 {
 
 .img {
     align-items: baseline;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 ul {
@@ -260,5 +260,84 @@ li {
         text-shadow: #001d2F;
         margin-top: 0px;
         padding-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .no-rev {
+
+        height: 380px;
+        width: 150px;
+        /* border: 2px solid greenyellow; */
+        background-color: #dad7cd;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.1rem;
+        /* padding: 30px; */
+    }
+
+    .no-rev:hover {
+        height: 400px;
+        width: 160px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        box-shadow: 3px 7px 10px -3px black;
+        /* #00AAFF */
+        color: darkblue;
+    }
+
+    .facilities {
+        /* border: 2px dashed rgb(240, 8, 8); */
+        background-color: #025bb5d5;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 600px;
+        text-size-adjust: 25px;
+        color: #00008B;
+    }
+    #info-head {
+        margin-top: 20px;
+        font-size: 40px;
+        padding: 20px;
+        color:black;
+    }
+
+    .infoin {
+
+        border: 2px solid rgb(128, 128, 128);
+        border-radius: 50px;
+    
+        height: 610px;
+        width: 430px;
+        display: flex;
+    
+        align-items: end;
+        flex-direction: column;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .infoin:hover {
+        height: 620px;
+        width: 440px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        box-shadow: 3px 7px 10px -3px black;
+        /* #00AAFF */
+    }
+    .info {
+        height:2000px;
+    }
+    #info2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
