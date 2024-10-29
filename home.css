@@ -355,4 +355,11 @@ li {
         align-items:flex-start;
         padding-left: 0px;
     }
+    .contact {
+        font-size: 1rem; /* Decreased font size */
+        text-align: center;
+        height: 80px;
+        background-color: rgb(107, 0, 62);
+        color: white;
+    }
 }
