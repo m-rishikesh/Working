@@ -220,6 +220,10 @@ li {
 
 }
 
+.no-rev a{
+    line-height:30px;
+}
+
 
 
 @media (max-width: 480px) {
@@ -263,8 +267,8 @@ li {
 
     .no-rev {
 
-        height: 380px;
-        width: 150px;
+        height: 190px;
+        width: 287px;
         /* border: 2px solid greenyellow; */
         background-color: #dad7cd;
         border-radius: 10px;
@@ -272,18 +276,23 @@ li {
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         /* padding: 30px; */
     }
 
+
     .no-rev:hover {
-        height: 400px;
-        width: 160px;
+        height: 190px;
+        width: 287px;
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
         box-shadow: 3px 7px 10px -3px black;
         /* #00AAFF */
         color: darkblue;
+    }
+
+    .no-rev a{
+        line-height:30px;
     }
 
     .facilities {
@@ -295,6 +304,7 @@ li {
         height: 600px;
         text-size-adjust: 25px;
         color: #00008B;
+        flex-direction: column;
     }
     #info-head {
         margin-top: 20px;
