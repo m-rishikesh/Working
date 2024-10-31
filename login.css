@@ -67,9 +67,9 @@ form p a{
 
 @media (max-width: 600px) {
     .hd{
-        font-size:600%;
+        font-size:400%;
         padding-top: 10%;
-        margin-left: 50px;
+        text-align: center;
     }
 
     .content{
@@ -82,7 +82,18 @@ form p a{
         /* border:3px solid blue; */
         box-shadow: 4px 9px 41px lightblue;
     }
-    
+    button {
+        margin:auto;
+        padding:18px 50px;
+        border:none;
+        background-color: #00aaff;
+        border-radius: 30px;
+        font-weight: 100;
+        color:white;
+        text-decoration: none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+    }
 
 
 }
