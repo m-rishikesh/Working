@@ -18,18 +18,39 @@ nav {
     text-shadow: #001d2F;
     margin-top: 0px;
     padding-top: 5px;
+    /* position: relative; */
 }
 
 nav a {
-    color: aliceblue;
+    color: rgb(253, 255, 240);
     border: 1px black;
     text-shadow: 1px #dad7cd;
     text-align: center;
     margin-right: 15px;
+    /* padding: 5px 15px; */
+    position: relative;
+
 }
+.nav a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(151, 232, 10);
+    transform: scaleX(0);
+    transition: 0.3s 
+    ease-in-out;
+    
+  }
+  .nav a:hover::after{
+     transform: scale(1);
+    
+  }
 
 nav a:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 4px solid rgb(255, 128, 0);
 }
 
 .webname {
