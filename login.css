@@ -65,27 +65,24 @@ form p a{
    margin-bottom: 3px;
 }
 
-@media (max-width: 480px) {
-    .content {
-        margin: 10% 0% 0% 0%;
-        padding: 10%;
-        width: 80%;
-        box-shadow: 2px 5px 20px lightblue;
+@media (max-width: 600px) {
+    .hd{
+        font-size:600%;
+        padding-top: 10%;
+        margin-left: 27px;
     }
-    .hd {
-        font-size: 1.5em;
+
+    .content{
+        text-align: center;
+        margin:5% 6%;
+        padding-bottom: 120px;
+        /* padding-right: 332px; */
+        padding-left: 0px;
+        width:87%;
+        /* border:3px solid blue; */
+        box-shadow: 4px 9px 41px lightblue;
     }
-    form p{
-        color:blue;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top:-5px;
-        margin-bottom:36px;
-        padding:9px 10px;
-        width:90%;
-        text-align: right;
-    }
-    form p a{
-        text-decoration: none;
-        color: #00aaff;
-    }
+    
+
+
 }
